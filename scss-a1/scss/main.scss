@@ -1,0 +1,37 @@
+@import "base";
+body{
+    background-color: $bg-color;
+    color: white;
+}
+
+.heading{
+    @include headingStyles(30px);
+    
+
+}
+
+.aside{
+    @include contentstyles(150px);
+    background-color: $asidecolor;
+}
+
+.article{
+    @include contentstyles(420px);
+    background-color: $articlecolor;
+    
+}
+
+.col{
+    float: left;
+    height: 300px;
+    padding: 10px;
+}
+
+.foot{
+    @include headingStyles(30px);
+        position: fixed;
+        bottom: 70px;
+        color: white;
+        text-align: center;
+
+}

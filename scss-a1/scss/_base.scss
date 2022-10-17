@@ -1,0 +1,25 @@
+$bg-color:pink;
+$hfcolor:rgb(116, 138, 116);
+$asidecolor:rgb(92, 163, 230);
+$articlecolor:rgb(121, 58, 69);
+
+@mixin headingStyles($size:50px){
+    text-align:center;
+    width:600px;
+    font-size:$size;
+    background-color: $hfcolor;
+    padding:5px 6px 7px 8px;
+    
+    
+}
+
+@mixin contentstyles($width:200px) {
+    width: $width;
+    text-align: center;
+    line-height: 300px;
+    height: 300px;
+    font-size: 20px;
+    color: white;
+   
+}
+
